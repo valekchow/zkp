@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/circulating-supply", "destination": "/api/circulating-supply" },
+    { "source": "/total-supply", "destination": "/api/total-supply" },
+    { "source": "/max-supply", "destination": "/api/max-supply" },
+    { "source": "/supply-details", "destination": "/api/supply-details" }
+  ]
+}
