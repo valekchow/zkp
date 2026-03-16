@@ -6,7 +6,7 @@ function fullMonthsSinceTGE(now) {
   let months = (now.getUTCFullYear() - TGE_DATE.getUTCFullYear()) * 12
     + (now.getUTCMonth() - TGE_DATE.getUTCMonth());
   if (now.getUTCDate() < TGE_DATE.getUTCDate()) months -= 1;
-  return Math.max(0, months);
+  return Math.max(0, months + 1);
 }
 
 function calculateCirculatingSupply(now = new Date()) {
